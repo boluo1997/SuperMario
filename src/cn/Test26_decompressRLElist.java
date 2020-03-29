@@ -5,8 +5,7 @@ public class Test26_decompressRLElist {
 
     }
 
-    public int[] decompressRLElist(int[] nums) {
 
 
-    }
+
 }
