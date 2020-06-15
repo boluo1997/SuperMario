@@ -2,15 +2,10 @@ package cn;
 
 class interview_question{
 
-    static float a = 1.12345678945375675f;
-    static int b = 1;
 
     public static void main(String[] args) {
 
-        float c = a;
 
-        System.out.println(b);
-        System.out.println(a);
     }
 
 }
@@ -94,7 +89,19 @@ class interview_question{
  *      只能对引用类型用：比较内存地址值是否相等
  */
 
+//15.String中的常用方法
+/**
+ * 1.charAt()：返回指定下标的字符
+ * 2.toCharArray()：把字符串转成字符数组
+ * 3.concat()：把新的字符串拼接到原字符串的末尾
+ *      +依赖于StringBuilder来拼接，可以拼接任意数据
+ *      concat()依赖于底层的数组复制来实现
+ * 4.contains()：判断新串是否是原串的子串
+ * 5.replace()：替换
+ * 6.valueOf()：是静态方法，可以根据类名点出来，把其他任意类型的数据转换成String类型
+ */
 
+//16.
 
 
 
