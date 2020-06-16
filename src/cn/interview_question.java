@@ -152,6 +152,56 @@ class interview_question{
  *
  */
 
+//18.集合
+/**
+ * Collection(单列集合)：
+ * 子接口  List(列表)：元素有序可重复
+ *                  实现类：ArrayList、LinkedList、Vector、Stack、
+ *
+ *        Set(散列)：元素无序不可重复
+ *                  实现类：HashSet、TreeSet
+ *
+ */
+
+//19.
+/**
+ * 排序方法1：类实现Comparable接口，重写compareTo()方法
+ *      class Person implements Comparable{
+ *          String name;
+ *          int age;
+ *
+ *          public Person(String name,int age){
+ *              this.name = name;
+ *              this.age = age;
+ *          }
+ *
+ *          //重写compareTo()方法
+ *          public int compareTo(Person person){
+ *              return this.age - person.age;
+ *          }
+ *
+ *      }
+ *
+ *
+ *
+ *
+ *
+ *
+ * 排序方法2: Comparator:比较器
+ *      1):通过集合对象调用sort()方法返回比较器
+ *      2):需要对compare()方法进行重写
+ */
+
+//20.迭代器:Iterator
+/**
+ * 调用iterator()返回Iterator接口
+ * Iterator<String> in = list.iterator();
+ * while(in.hasNext()){
+ *      String s = in.next();
+ *      ...
+ * }
+ *
+ */
 
 
 
