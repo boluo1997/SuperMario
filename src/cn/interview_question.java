@@ -5,6 +5,29 @@ class interview_question{
 
     public static void main(String[] args) {
 
+        /*
+        Integer i = new Integer(100);
+        Integer j = new Integer(100);
+
+        System.out.println( i==j );
+        System.out.println(i.equals(j));
+        */
+
+        /*
+        int[] num1 = new int[]{1,2,3};
+        int[] num2 = new int[]{1,2,3};
+
+        System.out.println(num1.equals(num2));
+        */
+
+        /*
+        Integer in1 = new Integer(100);
+        Integer in2 = new Integer(100);
+        System.out.println(in1 == in2);
+        */
+
+        Integer in1 = 100, in2 = 100;
+        System.out.println(in1.hashCode() == in2.hashCode());
 
     }
 
@@ -86,7 +109,11 @@ class interview_question{
  *      引用类型：比较内存地址值是否相等
  *
  * 2.equals()的作用
- *      只能对引用类型用：比较内存地址值是否相等
+ *      只能对引用类型用：默认情况是饮用比较，比较内存地址值是否相等，但是很多类重写了equals方法
+ *      比如String、Integer等把它变成了值比较。
+ *
+ * 当equals为 true时，==不一定为 true
+ *
  */
 
 //15.String中的常用方法
@@ -101,7 +128,29 @@ class interview_question{
  * 6.valueOf()：是静态方法，可以根据类名点出来，把其他任意类型的数据转换成String类型
  */
 
-//16.
+//16.包装类
+/**
+ * 1.自动封箱：把基本类型的数据直接赋值给包装类的对象
+ *
+ * Integer in = 1;  //自动封箱  Integer in = new Integer(1);
+ *
+ * 2.自动拆箱：把包装类的对象直接赋值给对应的基本类型
+ *
+ * in = in + 5; //自动拆箱  in.intValue()
+ *
+ */
+
+//17
+/**
+ * Integer in1 = 100,in2 = 100;
+ * System.out.print(in1 == in2);    //true  因为当数据在byte范围内，JVM不会在堆中开辟新的空间，
+ *                                  in2就会指向in1在堆中的内存地址，所以==在这里比较地址值就是true
+ *
+ * Integer in1 = 200,in2 = 200;
+ * System.out.print(in1 == in2);    //false
+ *
+ *
+ */
 
 
 
