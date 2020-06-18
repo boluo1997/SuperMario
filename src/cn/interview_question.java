@@ -416,8 +416,50 @@ class interview_question{
  * </bean>
  *
  *
- * 4.
+ * 4.基于构造方法的注入
+ * <bean>
+ *     <constructor-arg name = "name" type = "java.long.String" index = "0" value = "zs"></constructor-arg>
+ * </bean>
  */
+
+//59.Spring注解方式实现IOC
+/**
+ * 1.导入开发包
+ * 2.编写配置文件,导入context约束
+ * 3.开启包扫描(在配置文件中),指定Spring自动扫描哪些包下的类,只有在指定的扫描包下的类上的IOC注解才会生效
+ * 4.使用注解注册bean,在配置的包中的类上使用Component注解,则这个类会自动注册为bean,使用当前类的class为<bean>的class
+ * 5.bean的ID,通常情况下注解注册bean使用类名首字母小写为bean的ID,如果类名第二个字母大写,则首字母不变
+ *              也可以在@Component中配置value属性,指定bean的ID
+ */
+
+//60.Spring注解方式实现DI
+/**
+ * 1.导入开发包
+ * 2.编写配置文件,导入context约束
+ * 3.配置开启注解实现DI选项
+ * 4.Spring中可以通过@Value注解来实现spring内置支持的类型的属性的注入
+ * 5.在bean的属性上@Autowired实现自定义bean类型属性的注入
+ */
+
+//61.四个注解都是用来修饰类的,将类声明为Spring管理的bean
+/**
+ * @Component: 通用注解
+ * @Controller: web层
+ * @Service: service层
+ * @Repository: DAO层
+ */
+
+//62.代理设计模式
+/**
+ * 1.静态代理模式:让代理者和被代理者实现同一个接口    相当于代理者重写一遍被代理者的方法
+ * 2.java动态代理:不需要静态代理一样,写大量重复的代码.
+ *   java动态代理也是通过代理者实现和被代理者相同的接口.所以java动态代理是基于接口进行的,受制于要代理的方法是否有接口的支持
+ * 3.cglib动态代理:第三方提供的动态代理实现工具,不管有没有接口都可以实现动态代理
+ *   原理:生成的动态代理是被代理者的子类,所有代理者具有和父类相同的方法,从而实现代理,这种方式基于继承,不受制于接口
+ */
+
+
+//63.SpringAOP:通过动态代理在不修改源代码的情况下给程序统一添加功能
 
 
 
