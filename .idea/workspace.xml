@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="393" column="4" selection-start-line="393" selection-start-column="4" selection-end-line="393" selection-end-column="4" />
+            <state relative-caret-position="571">
+              <caret line="418" column="5" selection-start-line="418" selection-start-column="5" selection-end-line="418" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -170,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="280" />
     <option name="width" value="1650" />
     <option name="height" value="975" />
@@ -183,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,6 +205,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -348,7 +348,8 @@
       <workItem from="1592284583137" duration="12502000" />
       <workItem from="1592309097281" duration="6610000" />
       <workItem from="1592373767497" duration="9689000" />
-      <workItem from="1592397413815" duration="2239000" />
+      <workItem from="1592397413815" duration="2347000" />
+      <workItem from="1592466184834" duration="4746000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下！">
       <created>1591265126333</created>
@@ -441,17 +442,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592387966150</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="明天见">
+      <created>1592403194908</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592403194908</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86444000" />
+    <option name="totallyTimeSpent" value="91298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="0" width="1320" height="780" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25118858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21581769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -498,7 +506,8 @@
     <MESSAGE value="想买两本书...." />
     <MESSAGE value="谁依然带着你的梦想前行" />
     <MESSAGE value="颠倒梦想" />
-    <option name="LAST_COMMIT_MESSAGE" value="颠倒梦想" />
+    <MESSAGE value="明天见" />
+    <option name="LAST_COMMIT_MESSAGE" value="明天见" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/Test05_LinkedList.java">
@@ -677,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="393" column="4" selection-start-line="393" selection-start-column="4" selection-end-line="393" selection-end-column="4" />
+        <state relative-caret-position="571">
+          <caret line="418" column="5" selection-start-line="418" selection-start-column="5" selection-end-line="418" selection-end-column="5" />
         </state>
       </provider>
     </entry>

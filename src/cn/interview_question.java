@@ -391,7 +391,32 @@ class interview_question{
 
 //58.DI依赖注入
 /**
- *  
+ * 在创建对象的时候,Spring可以依据配置对对象的属性进行设置,这个过程为依赖注入
+ */
+
+/**
+ * 1.Spring普通属性注入
+ * <bean id = "hero" class = "cn.tedu.beans.Hero">
+ *      <property name = "name" value = "dingchao"></property>
+ * </bean>
+ *
+ *
+ * 2.自定义bean的注入
+ * <bean id = "dog" class = "cn.tedu.beans.Dog">
+ *      <property name = "name" value = "blank"></property>
+ * </bean>
+ * <bean>
+ *      <property name = "dog" ref  ="dog"></property>
+ * </bean>
+ *
+ *
+ * 3.自动装配   会根据要设置的javabean属性的名字或者类型到Spring中自动寻找对应的ID或者类型的<bean>进行设置
+ * <bean id = "hero" class = "cn.domain.Hero" autowire = "byType">
+ *     <property name = "name" value = "dingchao"></property>
+ * </bean>
+ *
+ *
+ * 4.
  */
 
 
