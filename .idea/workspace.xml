@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="545" column="3" selection-start-line="545" selection-start-column="3" selection-end-line="545" selection-end-column="3" />
+            <state relative-caret-position="332">
+              <caret line="617" column="9" selection-start-line="617" selection-start-column="9" selection-end-line="617" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -349,7 +349,7 @@
       <workItem from="1592466184834" duration="11003000" />
       <workItem from="1592568224321" duration="599000" />
       <workItem from="1592643381614" duration="5178000" />
-      <workItem from="1592655075446" duration="1838000" />
+      <workItem from="1592655075446" duration="7636000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下！">
       <created>1591265126333</created>
@@ -477,17 +477,31 @@
       <option name="project" value="LOCAL" />
       <updated>1592649278770</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="悲凉千里道,凄断百年身.">
+      <created>1592657686608</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1592657686608</updated>
+    </task>
+    <task id="LOCAL-00020" summary="十有九人堪白眼,百无一用是书生.">
+      <created>1592662445266</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592662445266</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105170000" />
+    <option name="totallyTimeSpent" value="110968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -505,7 +519,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3271605" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -539,7 +553,9 @@
     <MESSAGE value="白茶清欢无别事" />
     <MESSAGE value="明天又是新的一天" />
     <MESSAGE value="明天又是新的一天!" />
-    <option name="LAST_COMMIT_MESSAGE" value="明天又是新的一天!" />
+    <MESSAGE value="悲凉千里道,凄断百年身." />
+    <MESSAGE value="十有九人堪白眼,百无一用是书生." />
+    <option name="LAST_COMMIT_MESSAGE" value="十有九人堪白眼,百无一用是书生." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/Test05_LinkedList.java">
@@ -721,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="545" column="3" selection-start-line="545" selection-start-column="3" selection-end-line="545" selection-end-column="3" />
+        <state relative-caret-position="332">
+          <caret line="617" column="9" selection-start-line="617" selection-start-column="9" selection-end-line="617" selection-end-column="9" />
         </state>
       </provider>
     </entry>
