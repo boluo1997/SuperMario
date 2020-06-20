@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="533" column="5" selection-start-line="533" selection-start-column="5" selection-end-line="533" selection-end-column="5" />
+            <state relative-caret-position="548">
+              <caret line="545" column="3" selection-start-line="545" selection-start-column="3" selection-end-line="545" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -62,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test16_String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="432">
               <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
@@ -101,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test13_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="297">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
@@ -348,7 +348,8 @@
       <workItem from="1592397413815" duration="2347000" />
       <workItem from="1592466184834" duration="11003000" />
       <workItem from="1592568224321" duration="599000" />
-      <workItem from="1592643381614" duration="5153000" />
+      <workItem from="1592643381614" duration="5178000" />
+      <workItem from="1592655075446" duration="1838000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下！">
       <created>1591265126333</created>
@@ -469,17 +470,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592646002184</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="明天又是新的一天!">
+      <created>1592649278770</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1592649278770</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103307000" />
+    <option name="totallyTimeSpent" value="105170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,7 +538,8 @@
     <MESSAGE value="618" />
     <MESSAGE value="白茶清欢无别事" />
     <MESSAGE value="明天又是新的一天" />
-    <option name="LAST_COMMIT_MESSAGE" value="明天又是新的一天" />
+    <MESSAGE value="明天又是新的一天!" />
+    <option name="LAST_COMMIT_MESSAGE" value="明天又是新的一天!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/Test05_LinkedList.java">
@@ -710,6 +719,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="545" column="3" selection-start-line="545" selection-start-column="3" selection-end-line="545" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test01_bubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test31_compareTo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -724,6 +747,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test16_String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -753,34 +783,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test13_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="297">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo03.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test16_String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test01_bubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="533" column="5" selection-start-line="533" selection-start-column="5" selection-end-line="533" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">
