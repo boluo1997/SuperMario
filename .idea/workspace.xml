@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a63f6e16-cae3-4b00-a19a-d9b01d8313de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/interview_question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/interview_question.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="816" column="38" selection-start-line="816" selection-start-column="38" selection-end-line="816" selection-end-column="38" />
+            <state relative-caret-position="20898">
+              <caret line="822" selection-start-line="822" selection-end-line="822" />
             </state>
           </provider>
         </entry>
@@ -102,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test13_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="378">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
@@ -168,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="135" />
     <option name="y" value="20" />
     <option name="width" value="1670" />
@@ -182,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,7 +205,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +355,8 @@
       <workItem from="1592666466847" duration="601000" />
       <workItem from="1592707487210" duration="8256000" />
       <workItem from="1592729753674" duration="1031000" />
-      <workItem from="1592738988413" duration="4646000" />
+      <workItem from="1592738988413" duration="4835000" />
+      <workItem from="1592801964694" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下！">
       <created>1591265126333</created>
@@ -519,17 +519,23 @@
       <option name="project" value="LOCAL" />
       <updated>1592732862679</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="绿本+黄本看完,明天看其他的">
+      <created>1592743903960</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1592743903960</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125568000" />
+    <option name="totallyTimeSpent" value="126518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="16" width="1336" height="784" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24021909" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -585,7 +591,8 @@
     <MESSAGE value="十有九人堪白眼,百无一用是书生." />
     <MESSAGE value="平凡似我" />
     <MESSAGE value="6.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.21" />
+    <MESSAGE value="绿本+黄本看完,明天看其他的" />
+    <option name="LAST_COMMIT_MESSAGE" value="绿本+黄本看完,明天看其他的" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/Test05_LinkedList.java">
@@ -767,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="816" column="38" selection-start-line="816" selection-start-column="38" selection-end-line="816" selection-end-column="38" />
+        <state relative-caret-position="20898">
+          <caret line="822" selection-start-line="822" selection-end-line="822" />
         </state>
       </provider>
     </entry>
@@ -829,7 +836,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test13_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="378">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
