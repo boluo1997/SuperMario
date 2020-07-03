@@ -20,9 +20,10 @@ public class Test38_SingletonPattern {
     }
 }
 
+//饿汉式
 class Singleton{
 
-    private static Singleton singleton; //根据实例化实际不同，单例模式又可分为饿汉式和懒汉式
+    private static Singleton singleton = new Singleton(); //根据实例化实际不同，单例模式又可分为饿汉式和懒汉式
                                         //饿汉式：在类进行加载的时候就进行实例化
     private Singleton(){
 
@@ -32,3 +33,6 @@ class Singleton{
         return singleton;
     }
 }
+
+
+
