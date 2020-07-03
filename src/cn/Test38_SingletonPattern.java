@@ -34,5 +34,22 @@ class Singleton{
     }
 }
 
+//懒汉式
+class Singleton2{
 
+    private static Singleton2 singleton2 = new Singleton2(); //根据实例化实际不同，单例模式又可分为饿汉式和懒汉式
+    //懒汉式：在类进行加载的时候不进行实例化，在第一次使用的时候进行实例化
+    private Singleton2(){
+
+    }
+
+    public static Singleton2 getInstance(){
+
+        if(singleton2 == null){
+            singleton2 = new Singleton2();
+        }
+
+        return singleton2;
+    }
+}
 
