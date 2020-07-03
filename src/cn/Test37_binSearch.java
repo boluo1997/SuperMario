@@ -14,7 +14,7 @@ public class Test37_binSearch {
         int min = 0;
         int max = nums.length-1;
         int mid = (min+max)/2;
-        
+
         while(key != nums[mid]){
             if(key > nums[mid]){
                 min = mid+1;
@@ -51,3 +51,4 @@ public class Test37_binSearch {
     }
 
 }
+
