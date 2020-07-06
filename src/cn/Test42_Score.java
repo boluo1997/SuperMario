@@ -28,6 +28,50 @@ public class Test42_Score {
 
     public void Test(){
 
+        //先把list集合中的数据存入map中
+        Map<String, Double> map = new HashMap();
+        for (ScoreVo sv : getScoreList()) {
+            String key = sv.studentName + "_" + sv.courseName;
+            map.put(key, sv.score);
+        }
+
+        //把list集合中的name存入set中，可以去重，这样就知道总共有几个学生
+        Set<String> names = new TreeSet<>();
+        for (ScoreVo sv : getScoreList()) {
+            String key = sv.studentName;
+            names.add(key);
+        }
+
+        // 获取对象
+        List<StuInfo> list = new ArrayList();
+        for (String name:names){        //这次遍历从set中遍历，就防止了多创建对象，而是有多少学生创建多少对象
+            list.add(new StuInfo(map, name));       //name代表所有的学生，而map中又有所有学生的成绩，在构造方法中把学生对应的成绩赋值给学生
+        }
+
+        list.sort(new Comparator<StuInfo>() {
+            @Override
+            public int compare(StuInfo o1, StuInfo o2) {
+                return (int)(o2.sumd - o1.sumd);
+            }
+        });
+
+        Double math_score = 0.0;
+        Double chinese_score = 0.0;
+        Double english_score = 0.0;
+        Double pthistic_score = 0.0;
+
+        int cnt = list.size();
+        for (StuInfo si : list){
+            math_score = math_score + si.getMath();
+            chinese_score = chinese_score + si.getChinese();
+            english_score = english_score + si.getEnglish();
+            pthistic_score = pthistic_score + si.getPthystic();
+            System.out.println(si.toString());
+        }
+
+        String str = "平均成绩" + "\t" + math_score/cnt + "\t"+ chinese_score/cnt
+                + "\t" + english_score/cnt+ "\t" + pthistic_score/cnt + "\t" +(math_score+chinese_score+english_score+pthistic_score)/cnt;
+        System.out.println(str);
     }
 
 
@@ -83,67 +127,87 @@ public class Test42_Score {
         }
     }
 
-    class StudentVo{
-        private String name;
-        private double chineseScore;
-        private double mathScore;
-        private double englishScore;
-        private double physicalScore;
-        private double totalScore;
 
-        public StudentVo(){
+    public class StuInfo{
+        String name;
+        Double math = 0.0;
+        Double chinese = 0.0;
+        Double english = 0.0;
+        Double pthystic = 0.0;
+        Double sumd;
 
+        public StuInfo(Map<String, Double> map, String name){
+            this.name = name;
+            Set<String> sets = map.keySet();
+            if (sets.contains(name + "_数学")){
+                this.math = map.get(name + "_数学" );
+            }
+            if (sets.contains(name + "_语文")){
+                this.chinese = map.get(name + "_语文");
+            }
+            if (sets.contains(name + "_英语" )){
+                this.english = map.get(name + "_英语" );
+            }
+            if (sets.contains(name + "_物理")){
+                this.pthystic = map.get(name + "_物理");
+            }
+
+            this.sumd = this.math+this.chinese+this.english+this.pthystic;
         }
 
         public String getName() {
             return name;
         }
+
         public void setName(String name) {
             this.name = name;
         }
-        public double getChineseScore() {
-            return chineseScore;
+
+        public Double getMath() {
+            return math;
         }
-        public void setChineseScore(double chineseScore) {
-            this.chineseScore = chineseScore;
+
+        public void setMath(Double math) {
+            this.math = math;
         }
-        public double getMathScore() {
-            return mathScore;
+
+        public Double getChinese() {
+            return chinese;
         }
-        public void setMathScore(double mathScore) {
-            this.mathScore = mathScore;
+
+        public void setChinese(Double chinese) {
+            this.chinese = chinese;
         }
-        public double getEnglishScore() {
-            return englishScore;
+
+        public Double getEnglish() {
+            return english;
         }
-        public void setEnglishScore(double englishScore) {
-            this.englishScore = englishScore;
+
+        public void setEnglish(Double english) {
+            this.english = english;
         }
-        public double getPhysicalScore() {
-            return physicalScore;
+
+        public Double getPthystic() {
+            return pthystic;
         }
-        public void setPhysicalScore(double physicalScore) {
-            this.physicalScore = physicalScore;
+
+        public void setPthystic(Double pthystic) {
+            this.pthystic = pthystic;
         }
-        public double getTotalScore() {
-            return totalScore;
+
+        public Double getSumd() {
+            return sumd;
         }
-        public void setTotalScore(double totalScore) {
-            this.totalScore = totalScore;
+
+        public void setSumd(Double sumd) {
+            this.sumd = sumd;
         }
 
         @Override
         public String toString() {
-            return "StudentVo{" +
-                    "name='" + name + '\'' +
-                    ", chineseScore=" + chineseScore +
-                    ", mathScore=" + mathScore +
-                    ", englishScore=" + englishScore +
-                    ", physicalScore=" + physicalScore +
-                    ", totalScore=" + totalScore +
-                    '}';
+            return name + '\t' + (math.equals(0.0)?"    ":math) + '\t' +  (chinese.equals(0.0)?"    ":chinese) + '\t' + (english.equals(0.0)?"    ":english) + '\t' + (pthystic.equals(0.0)?"    ":pthystic) + '\t' + sumd  ;
         }
-
     }
+
 }
 
