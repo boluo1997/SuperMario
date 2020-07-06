@@ -8,7 +8,6 @@
     <list default="true" id="a63f6e16-cae3-4b00-a19a-d9b01d8313de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/Test41_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Test41_Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Test42_Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Test42_Score.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test42_Score.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
+            <state relative-caret-position="1350">
               <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
@@ -137,11 +136,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/Test41_Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="594">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <folding>
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,8 +226,8 @@
         <option value="$PROJECT_DIR$/src/cn/Test38_SingletonPattern.java" />
         <option value="$PROJECT_DIR$/src/cn/Test39_Factory.java" />
         <option value="$PROJECT_DIR$/src/cn/Test40_Factory.java" />
-        <option value="$PROJECT_DIR$/src/cn/Test41_Factory.java" />
         <option value="$PROJECT_DIR$/src/cn/Test42_Score.java" />
+        <option value="$PROJECT_DIR$/src/cn/Test41_Factory.java" />
       </list>
     </option>
   </component>
@@ -432,7 +437,7 @@
       <workItem from="1593787181393" duration="1213000" />
       <workItem from="1593934431677" duration="5472000" />
       <workItem from="1593947308110" duration="10058000" />
-      <workItem from="1594016669737" duration="7244000" />
+      <workItem from="1594016669737" duration="7546000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下！">
       <created>1591265126333</created>
@@ -721,17 +726,23 @@
       <option name="project" value="LOCAL" />
       <updated>1594018561529</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="已解决">
+      <created>1594029058225</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1594029058225</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170183000" />
+    <option name="totallyTimeSpent" value="170485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19705094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19705094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -767,7 +778,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="明天见" />
     <MESSAGE value="618" />
     <MESSAGE value="白茶清欢无别事" />
     <MESSAGE value="明天又是新的一天" />
@@ -792,7 +802,8 @@
     <MESSAGE value="工厂模式-工厂方法模式" />
     <MESSAGE value="如何将List集合中相同属性的对象合并？" />
     <MESSAGE value="这是原题，把我自己写的部分删了" />
-    <option name="LAST_COMMIT_MESSAGE" value="这是原题，把我自己写的部分删了" />
+    <MESSAGE value="已解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="已解决" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/Test05_LinkedList.java">
@@ -1124,16 +1135,9 @@
     <entry file="file://$PROJECT_DIR$/Demo03.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test41_Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test42_Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
+        <state relative-caret-position="1350">
           <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
           <folding>
             <element signature="e#153#154#0" expanded="true" />
@@ -1166,6 +1170,19 @@
             <element signature="e#6097#6098#0" expanded="true" />
             <element signature="e#6141#6142#0" expanded="true" />
             <element signature="e#6181#6182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test41_Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
