@@ -28,45 +28,6 @@ public class Test42_Score {
 
     public void Test(){
 
-        System.out.println(getScoreList());
-
-        List<ScoreVo> scoreList = getScoreList();
-        List<StudentVo> newList = new ArrayList<>();
-
-        for(int i=0;i<scoreList.size();i++){
-            String name = scoreList.get(i).studentName;
-
-            for(int j=0;j<scoreList.size();j++){
-                if(i == j){
-                    continue;
-                }else {
-                    StudentVo stu = new StudentVo();
-                    stu.setName(name);
-
-                    if(scoreList.get(i).studentName == scoreList.get(j).studentName){
-                        if(scoreList.get(i).courseName == "语文"){
-                            stu.setChineseScore(scoreList.get(i).score);
-                        }
-                        if(scoreList.get(i).courseName == "数学"){
-                            stu.setMathScore(scoreList.get(i).score);
-                        }
-                        if(scoreList.get(i).courseName == "英语"){
-                            stu.setEnglishScore(scoreList.get(i).score);
-                        }
-                        if(scoreList.get(i).courseName == "物理"){
-                            stu.setPhysicalScore(scoreList.get(i).score);
-                        }
-
-                    }
-                    newList.add(stu);
-                }
-
-            }
-
-        }
-
-        System.out.println(newList);
-
     }
 
 
