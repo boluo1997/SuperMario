@@ -36,15 +36,15 @@ public class Test42_Score {
         }
 
         //把list集合中的name存入set中，可以去重，这样就知道总共有几个学生
-        Set<String> names = new TreeSet<>();
+        Set<String> set = new TreeSet<>();
         for (ScoreVo sv : getScoreList()) {
             String key = sv.studentName;
-            names.add(key);
+            set.add(key);
         }
 
         // 获取对象
         List<StuInfo> list = new ArrayList();
-        for (String name:names){        //这次遍历从set中遍历，就防止了多创建对象，而是有多少学生创建多少对象
+        for (String name:set){        //这次遍历从set中遍历，就防止了多创建对象，而是有多少学生创建多少对象
             list.add(new StuInfo(map, name));       //name代表所有的学生，而map中又有所有学生的成绩，在构造方法中把学生对应的成绩赋值给学生
         }
 
