@@ -745,7 +745,7 @@ class interview_question{
 
 //98.cookie和session的区别
 /**
- * 1. cookie数据存放在浏览器上,session数据存放在服务器上
+ * 1. cookie数据存放在浏 览器上,session数据存放在服务器上
  * 2. cookie不安全,session更加安全
  * 3. session会在一定时间内保存在服务器上,会占用服务器性能
  * 4. 单个cookie存储的数据不能超过4k
