@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Test47_yifan {
     public static void main(String[] args) {
-        
+
         List<Student> allData = new ArrayList<Student>();
 
         allData.add(new Student("class1", "丁超"));
@@ -23,7 +23,9 @@ public class Test47_yifan {
         });
 
         List<String> newClassList = classList.stream().distinct().collect(Collectors.toList());//班级号去重处理
+
         Map<String, List<Student>> map = new HashMap<String, List<Student>>();//将学生列表封装为Map<key:班级号,vlaue:对应的List>
+
         for (Student student : allData) {
             if (map.get(student.getClassId()) == null) {
                 List<Student> list = new ArrayList<Student>();
@@ -34,6 +36,7 @@ public class Test47_yifan {
                 list.add(student);
             }
         }
+
         newClassList.forEach(s -> {
             //遍历去重后的班级号列表  来取到班级号对应的List
             System.out.println(s);

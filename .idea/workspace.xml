@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a63f6e16-cae3-4b00-a19a-d9b01d8313de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/Test47_yifan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Test47_yifan.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,15 +36,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/Test42_Score.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test44_AdapterPattern.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -61,8 +53,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20169">
-              <caret line="747" column="19" selection-start-line="747" selection-start-column="19" selection-end-line="747" selection-end-column="19" />
+            <state relative-caret-position="115">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/Test48_Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#258#267#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,30 +83,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test46_Beetle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="675">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test47_yifan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="702">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#188#197#0" expanded="true" />
-                <element signature="e#819#842#0" expanded="true" />
-                <element signature="e#1031#1040#0" expanded="true" />
-                <element signature="e#1999#2000#0" expanded="true" />
-                <element signature="e#2037#2038#0" expanded="true" />
-                <element signature="e#2087#2088#0" expanded="true" />
-                <element signature="e#2133#2134#0" expanded="true" />
-                <element signature="e#2168#2169#0" expanded="true" />
-                <element signature="e#2203#2204#0" expanded="true" />
-                <element signature="e#2247#2248#0" expanded="true" />
-                <element signature="e#2287#2288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/Test04_quickSort.java" />
         <option value="$PROJECT_DIR$/src/cn/Test05_LinkedList.java" />
         <option value="$PROJECT_DIR$/src/cn/Test06.java" />
         <option value="$PROJECT_DIR$/src/cn/Test07.java" />
@@ -211,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/cn/Test45_Detergent.java" />
         <option value="$PROJECT_DIR$/src/cn/Test46_Beetle.java" />
         <option value="$PROJECT_DIR$/src/cn/Test47_yifan.java" />
+        <option value="$PROJECT_DIR$/src/cn/Test48_Collections.java" />
       </list>
     </option>
   </component>
@@ -228,8 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,6 +243,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,22 +270,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test47_yifan">
+  <component name="RunManager" selected="Application.Test48_Collections">
     <configuration name="Cleanser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.Cleanser" />
-      <module name="Demo03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test44_AdapterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.Test44_AdapterPattern" />
       <module name="Demo03" />
       <extension name="coverage">
         <pattern>
@@ -343,13 +323,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test48_Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.Test48_Collections" />
+      <module name="Demo03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test48_Collections" />
         <item itemvalue="Application.Test47_yifan" />
         <item itemvalue="Application.Test46_Beetle" />
         <item itemvalue="Application.Test45_Detergent" />
         <item itemvalue="Application.Cleanser" />
-        <item itemvalue="Application.Test44_AdapterPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -428,14 +421,8 @@
       <workItem from="1594369910439" duration="5991000" />
       <workItem from="1594453709669" duration="2813000" />
       <workItem from="1594566503337" duration="883000" />
-      <workItem from="1594637019930" duration="1800000" />
-    </task>
-    <task id="LOCAL-00001" summary="测试一下！">
-      <created>1591265126333</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1591265126333</updated>
+      <workItem from="1594637019930" duration="6511000" />
+      <workItem from="1594740869859" duration="462000" />
     </task>
     <task id="LOCAL-00002" summary="今天是6月4号，缅怀前人！">
       <created>1591284500527</created>
@@ -773,17 +760,24 @@
       <option name="project" value="LOCAL" />
       <updated>1594567283498</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="冯·诺一帆的测试题">
+      <created>1594644660530</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1594644660531</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191736000" />
+    <option name="totallyTimeSpent" value="196909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1802949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -819,7 +813,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.21" />
     <MESSAGE value="绿本+黄本看完,明天看其他的" />
     <MESSAGE value="6.22" />
     <MESSAGE value="6.23" />
@@ -844,16 +837,10 @@
     <MESSAGE value="7.10" />
     <MESSAGE value="7.11" />
     <MESSAGE value="7.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.12" />
+    <MESSAGE value="冯·诺一帆的测试题" />
+    <option name="LAST_COMMIT_MESSAGE" value="冯·诺一帆的测试题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/Test05_LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3537">
-          <caret line="131" column="6" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test06.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -1159,6 +1146,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test42_Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test44_AdapterPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1172,10 +1166,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/Test45_Detergent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20169">
-          <caret line="747" column="19" selection-start-line="747" selection-start-column="19" selection-end-line="747" selection-end-column="19" />
+        <state relative-caret-position="702">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test46_Beetle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test47_yifan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,44 +1218,22 @@
     <entry file="file://$PROJECT_DIR$/Demo03.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test46_Beetle.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/Test48_Collections/addAll.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="115">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test45_Detergent.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/Test48_Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test42_Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test47_yifan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="405">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#197#0" expanded="true" />
-            <element signature="e#819#842#0" expanded="true" />
-            <element signature="e#1031#1040#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2133#2134#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2247#2248#0" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
+            <element signature="e#258#267#0" expanded="true" />
           </folding>
         </state>
       </provider>
