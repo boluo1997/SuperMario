@@ -20,7 +20,7 @@ public class Test48_Collections {
         Collections.addAll(collection,moreInts);
 
         List<Integer> list = Arrays.asList(16,17,18,19,20);
-        list.set(1,99); 
+        list.set(1,99);
 
     }
 }
