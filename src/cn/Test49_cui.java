@@ -1,8 +1,26 @@
 package cn;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Test49_cui {
     public static void main(String[] args) {
-        System.out.println(method("1010"));
+
+        Map map= new HashMap<String,Integer>();
+
+        map.put("1",1);
+        map.put("2",2);
+        map.put("3",3);
+
+        for (Object str : map.keySet()) {
+            System.out.println(str);
+        }
+
+        for (Object ints : map.values()){
+            System.out.println(ints);
+        }
+
+        //System.out.println(method("1010"));
     }
 
     public static int method(String str){

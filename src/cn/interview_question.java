@@ -846,7 +846,6 @@ class interview_question{
  *
  */
 
-
 //110.索引有哪几种
 /**
  * 索引有三种类型：
