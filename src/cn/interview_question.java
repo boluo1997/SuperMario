@@ -833,6 +833,20 @@ class interview_question{
  */
 
 
+//109.数据库引擎
+/**
+ *
+ * 1.InnoDB存储引擎：是MySQL的默认引擎，支持事务
+ *
+ * 2.MyISAM存储引擎
+ *
+ * 3.MEMORY存储引擎
+ *
+ * 4.Archive存储引擎
+ *
+ */
+
+
 
 
 

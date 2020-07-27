@@ -5,9 +5,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/cn/interview_question.java" line="670" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a63f6e16-cae3-4b00-a19a-d9b01d8313de" name="Default Changelist" comment="7.14">
+    <list default="true" id="a63f6e16-cae3-4b00-a19a-d9b01d8313de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Test48_Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Test48_Collections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/Test49_cui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Test49_cui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/interview_question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/interview_question.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,32 +37,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/Test38_SingletonPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/Test48_Collections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="332">
+              <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/Test49_cui.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-141">
+              <caret line="824" column="9" selection-start-line="824" selection-start-column="9" selection-end-line="824" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/Test42_Score.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -192,13 +189,13 @@
         <option value="$PROJECT_DIR$/src/cn/Test43_DecoratorPattern.java" />
         <option value="$PROJECT_DIR$/src/cn/Test42_Score.java" />
         <option value="$PROJECT_DIR$/src/cn/Test44_AdapterPattern.java" />
-        <option value="$PROJECT_DIR$/src/cn/interview_question.java" />
         <option value="$PROJECT_DIR$/src/cn/Test45_Detergent.java" />
         <option value="$PROJECT_DIR$/src/cn/Test46_Beetle.java" />
         <option value="$PROJECT_DIR$/src/cn/Test47_yifan.java" />
         <option value="$PROJECT_DIR$/src/cn/Test48_Collections.java" />
         <option value="$PROJECT_DIR$/src/cn/Test19_cui.java" />
         <option value="$PROJECT_DIR$/src/cn/Test49_cui.java" />
+        <option value="$PROJECT_DIR$/src/cn/interview_question.java" />
       </list>
     </option>
   </component>
@@ -216,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -240,6 +236,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,14 +416,11 @@
       <workItem from="1594637019930" duration="6511000" />
       <workItem from="1594740869859" duration="716000" />
       <workItem from="1594905682069" duration="916000" />
-      <workItem from="1594906671273" duration="2137000" />
-    </task>
-    <task id="LOCAL-00003" summary="今天是6月4号，缅怀前人！">
-      <created>1591285247994</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1591285247994</updated>
+      <workItem from="1594906671273" duration="2228000" />
+      <workItem from="1594911649869" duration="2038000" />
+      <workItem from="1595259152718" duration="80000" />
+      <workItem from="1595684971245" duration="1502000" />
+      <workItem from="1595841999279" duration="2740000" />
     </task>
     <task id="LOCAL-00004" summary="唉！">
       <created>1591360292395</created>
@@ -764,17 +758,24 @@
       <option name="project" value="LOCAL" />
       <updated>1594741518229</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="7.16">
+      <created>1594908880686</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1594908880687</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200216000" />
+    <option name="totallyTimeSpent" value="206667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -810,7 +811,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.22" />
     <MESSAGE value="6.23" />
     <MESSAGE value="bubbleSort" />
     <MESSAGE value="selectSort" />
@@ -835,7 +835,8 @@
     <MESSAGE value="7.12" />
     <MESSAGE value="冯·诺一帆的测试题" />
     <MESSAGE value="7.14" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.14" />
+    <MESSAGE value="7.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.16" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/Test10_Anonymity.java">
@@ -1088,24 +1089,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test34_selectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test24_insertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test38_SingletonPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1136,13 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test42_Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test48_Collections/addAll.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/Test44_AdapterPattern.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1157,17 +1137,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test48_Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test49_cui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test34_selectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1223,14 +1213,24 @@
     <entry file="file://$PROJECT_DIR$/Demo03.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test49_cui.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/Test38_SingletonPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="332">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test42_Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="824" column="9" selection-start-line="824" selection-start-column="9" selection-end-line="824" selection-end-column="9" />
         </state>
       </provider>
     </entry>

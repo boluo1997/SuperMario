@@ -2,7 +2,7 @@ package cn;
 
 public class Test49_cui {
     public static void main(String[] args) {
-        System.out.println(method("2 2 6 7 9 7 8 9 4 5 3 4 5 6"));
+        System.out.println(method("1010"));
     }
 
     public static int method(String str){
@@ -13,11 +13,12 @@ public class Test49_cui {
             nums[i] = Integer.parseInt( String.valueOf(str.charAt(i)));
         }
 
-        int sum = 1;        //先把个位的数量加上
+        int sum = 0;
 
         for(int i=0;i<nums.length-1;i++){
             for(int j=i+1;j<nums.length;j++){
-                if(nums[i]*10 + nums[j] <= 26){
+                if(nums[i] !=0 && nums[i]*10 + nums[j] <= 26){
+                    System.out.println(nums[i]*10 + nums[j]);
                     sum += 1;
                     break;
                 }
