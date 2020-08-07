@@ -1,8 +1,12 @@
 package cn;
 
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+
 class interview_question{
 
     public static void main(String[] args) {
+
+        //AbstractQueuedSynchronizer
 
         /*
         Integer i = new Integer(100);
@@ -332,10 +336,10 @@ class interview_question{
 //52.sleep()和wait()的区别
 /**
  * 1. sleep()是Thread类中的静态方法,时间指定不指定都可以,到点自然醒,
- *          如果没有锁,释放线程的执行权,如果有锁,释放线程的执行权,但是不释放锁对象
+ *          释放线程的执行权，不释放锁对象
  *
  * 2. wait()是Object中的方法,时间指定不指定都可以,一定要唤醒,
- *          无论是否加锁都释放线程的执行权及锁对象
+ *          释放线程的执行权及锁对象
  */
 
 //同步代码块锁和同步方法锁
@@ -344,7 +348,7 @@ class interview_question{
  *               锁对象是共享资源或者方法区资源(方法区被所有线程对象共享)
  *
  * 2.同步方法锁：如果是静态方法，锁对象就是类名.class
- *              如果是费静态方法，锁对象是 this
+ *              如果是非静态方法，锁对象是 this
  */
 
 //synchronized关键字，是怎么保证线程安全的呢
