@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a63f6e16-cae3-4b00-a19a-d9b01d8313de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Test50_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Test50_Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/interview_question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/interview_question.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,37 +34,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/Test38_SingletonPattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
+            <state relative-caret-position="23409">
               <caret line="867" column="32" selection-start-line="867" selection-start-column="32" selection-end-line="867" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test51_ProxyPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="1242">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,11 +97,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/Test43_DecoratorPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state>
+              <caret selection-end-line="40" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/Test44_AdapterPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,8 +207,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="97" />
-    <option name="y" value="38" />
+    <option name="x" value="96" />
+    <option name="y" value="37" />
     <option name="width" value="1670" />
     <option name="height" value="980" />
   </component>
@@ -247,6 +245,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="Test38_SingletonPattern.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Demo03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="Test44_AdapterPattern.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -442,14 +447,8 @@
       <workItem from="1596528621882" duration="649000" />
       <workItem from="1596545095307" duration="2346000" />
       <workItem from="1596702552343" duration="2697000" />
-      <workItem from="1596781460386" duration="1888000" />
-    </task>
-    <task id="LOCAL-00008" summary="人生自是有情痴，此恨不关风与月">
-      <created>1592290334341</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1592290334341</updated>
+      <workItem from="1596781460386" duration="1916000" />
+      <workItem from="1596806371752" duration="1873000" />
     </task>
     <task id="LOCAL-00009" summary="compare和compareTo排序的区别">
       <created>1592301045601</created>
@@ -787,17 +786,24 @@
       <option name="project" value="LOCAL" />
       <updated>1595938622867</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="代理模式">
+      <created>1596790717926</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1596790717926</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223896000" />
+    <option name="totallyTimeSpent" value="225797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="31" width="1336" height="784" extended-state="0" />
+    <frame x="77" y="30" width="1336" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21205008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21517996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -833,7 +839,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="quickSort" />
     <MESSAGE value="github今天更新了" />
     <MESSAGE value="二分查找递归写法" />
     <MESSAGE value="二分查找非递归写法" />
@@ -858,7 +863,8 @@
     <MESSAGE value="索引的几种类型" />
     <MESSAGE value="Map遍历方法" />
     <MESSAGE value="synchronized" />
-    <option name="LAST_COMMIT_MESSAGE" value="synchronized" />
+    <MESSAGE value="代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="代理模式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/Test07_Thread.java">
@@ -1121,19 +1127,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test48_Collections/addAll.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/Test44_AdapterPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test48_Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1189,6 +1182,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23409">
+          <caret line="867" column="32" selection-start-line="867" selection-start-column="32" selection-end-line="867" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Java/jdk/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6939">
@@ -1220,17 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test43_DecoratorPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/Test35_insertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1241,26 +1230,37 @@
     <entry file="file://$PROJECT_DIR$/Demo03.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/interview_question.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/Test51_ProxyPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="867" column="32" selection-start-line="867" selection-start-column="32" selection-end-line="867" selection-end-column="32" />
+        <state relative-caret-position="1242">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Test51_ProxyPattern.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/Test43_DecoratorPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state>
+          <caret selection-end-line="40" />
           <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/Test44_AdapterPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
