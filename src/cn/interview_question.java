@@ -1,8 +1,10 @@
 package cn;
 
-import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 
-class interview_question{
+class interview_question {
 
     public static void main(String[] args) {
 
@@ -599,7 +601,7 @@ class interview_question{
  * 1.String : 存储临时数据
  * 2.hash   : 存储用户信息    底层是个双层 Map
  * 3.list   : 消息队列
- * 4.set    : 元素值不能重复的集合对象        兴趣爱好、共同好友
+ * 4.set    : 元素值不能重复的集合对象         兴趣爱好、共同好友
  * 5.zset   : 有序,元素值不能重复的集合对象   排行榜
  *
  */
@@ -741,7 +743,7 @@ class interview_question{
 //94.进程和线程的区别
 /**
  * 1. 进程是资源分配的最小单位,线程是CPU调度的基本单位
- * 2. 进程有自己独立的地址空间,线程共享进程中的数据,使用相同的地址空间.因此CPU切换一个线程的话费比进程要小
+ * 2. 进程有自己独立的地址空间,线程共享进程中的数据,使用相同的地址空间.因此CPU切换一个线程的花费比进程要小
  * 3. 线程之间通信更方便(同一进程下共享全局变量,静态变量等数据)
  * 4. 多进程程序更加健壮,多线程程序只要有一个线程死掉,整个进程就会死掉,多进程之间不会影响,因为进程有自己独立的地址空间
  * 5. 进程包含线程,一个进程下至少有一个线程(单线程),也可以有多个线程
@@ -751,8 +753,8 @@ class interview_question{
 //95. 什么是反射?
 /**
  * 反射是在运行状态中,对于任意一个类,都能够知道这个类的所有属性和方法,
- * 对于任意一个对象,都能够调用它的方法和属性
- * 这种动态获取信息以及动态调用对象方法的功能成为java的反射机制
+ * 对于任意一个对象,都能够调用它的属性和方法
+ * 这种动态获取信息以及动态调用对象方法的功能称为java的反射机制
  */
 
 
@@ -774,7 +776,7 @@ class interview_question{
 
 //98.cookie和session的区别
 /**
- * 1. cookie数据存放在浏 览器上,session数据存放在服务器上
+ * 1. cookie数据存放在浏览器上,session数据存放在服务器上
  * 2. cookie不安全,session更加安全
  * 3. session会在一定时间内保存在服务器上,会占用服务器性能
  * 4. 单个cookie存储的数据不能超过4k
