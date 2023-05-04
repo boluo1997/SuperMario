@@ -7,7 +7,7 @@ from source import tools
 
 def main():
     game = tools.Game()
-    game.run()
+    game.run(setup.GRAPHICS)
 
 
 if __name__ == '__main__':
