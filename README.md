@@ -16,7 +16,7 @@
 
 
 ## [固定搭配](./固定搭配/review.md)
-- [had better](./固定搭配/)
+- [had better](./固定搭配/had%20better.md)
 
 
 
