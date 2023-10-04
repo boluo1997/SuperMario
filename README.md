@@ -19,6 +19,7 @@
 - [before after](./固定搭配/before%20after.md)
 - [had better](./固定搭配/had%20better.md)
 - [have to](./固定搭配/have%20to.md)
+- [must be](./固定搭配/must%20be.md)
 - [反义疑问句](./固定搭配/反义疑问句.md)
 - [比较级](./固定搭配/比较级.md)
 
