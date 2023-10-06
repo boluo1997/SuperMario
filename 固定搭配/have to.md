@@ -6,7 +6,7 @@ have to: 不得不 / 必须
 <table>
 <tbody>
 <tr>
-<td colspan="4" align="center">must用法</td>
+<td colspan="4" align="center">must 用法</td>
 </tr>
 <tr>
 <td rowspan="2" align="center">情态动词</td>
