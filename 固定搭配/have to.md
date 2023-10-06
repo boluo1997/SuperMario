@@ -33,10 +33,12 @@ Don't open that door<br/>
 You can't open that door<br/>
 You'd better not open that door
 </td>
+<td></td>
 </tr>
 <tr>
 <td>一般疑问句</td>
 <td>大多数情况用have to</td>
+<td></td>
 </tr>
 </tbody>
 </table>
