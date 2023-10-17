@@ -64,15 +64,23 @@ I start work at 8 o'clock.
 
 ### little
 ```text
+Do you want any mike ?
+Just a little, please.
 
-
+I'd like a cigarette, May I have one ?
+Of course, there are a few in that box.
 ```
 
 
 ### must be
 ```text
+You must be Ding Chao.
+You can't be Ding Chao.
+She may be from China.
 
+I must have been crazy.
 
+He can't have been ill.
 ```
 
 
