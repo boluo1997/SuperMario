@@ -92,3 +92,12 @@ I was so tired that I fell asleep in the armchair.
 It was such a good book that I couldn't put it down.
 It was such nice weather that we spent the whole day on the beach.
 ```
+
+
+### used to do
+```text
+I used to be a student.
+I used to live in Auckland.
+I used to play basketball.
+I used to cook everyday.
+```
